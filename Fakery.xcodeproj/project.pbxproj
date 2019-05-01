@@ -6,7 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"Fakery::FakeryPackageTests::ProductTarget" /* FakeryPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXAggregateTarget "FakeryPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_85 /* PBXTargetDependency */,
+			);
+			name = FakeryPackageTests;
+			productName = FakeryPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		09F65D6F1CA30351006C87C5 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F65D6E1CA30351006C87C5 /* Number.swift */; };
 		09F65D701CA30351006C87C5 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F65D6E1CA30351006C87C5 /* Number.swift */; };
 		1057479A1F6FBAA500154ECB /* BankSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105747991F6FBAA500154ECB /* BankSpec.swift */; };
@@ -181,26 +196,64 @@
 		E460B80520B47858004ABCAE /* en.swift in Sources */ = {isa = PBXBuildFile; fileRef = E460B80420B47853004ABCAE /* en.swift */; };
 		E460B80620B47858004ABCAE /* en.swift in Sources */ = {isa = PBXBuildFile; fileRef = E460B80420B47853004ABCAE /* en.swift */; };
 		E460B80720B47859004ABCAE /* en.swift in Sources */ = {isa = PBXBuildFile; fileRef = E460B80420B47853004ABCAE /* en.swift */; };
+=======
+		OBJ_102 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* BaseTestCase.swift */; };
+		OBJ_103 /* LinuxTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* LinuxTestable.swift */; };
+		OBJ_104 /* XCAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* XCAssertions.swift */; };
+		OBJ_111 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Package.swift */; };
+		OBJ_54 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Config.swift */; };
+		OBJ_55 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Parser.swift */; };
+		OBJ_56 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Provider.swift */; };
+		OBJ_57 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ArrayExtension.swift */; };
+		OBJ_58 /* Faker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Faker.swift */; };
+		OBJ_59 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Address.swift */; };
+		OBJ_60 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* App.swift */; };
+		OBJ_61 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Bank.swift */; };
+		OBJ_62 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Business.swift */; };
+		OBJ_63 /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Commerce.swift */; };
+		OBJ_64 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Company.swift */; };
+		OBJ_65 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Generator.swift */; };
+		OBJ_66 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Internet.swift */; };
+		OBJ_67 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Lorem.swift */; };
+		OBJ_68 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Name.swift */; };
+		OBJ_69 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Number.swift */; };
+		OBJ_70 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* PhoneNumber.swift */; };
+		OBJ_71 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Team.swift */; };
+		OBJ_72 /* LinuxRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* LinuxRandom.swift */; };
+		OBJ_73 /* en.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* en.swift */; };
+		OBJ_80 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_91 /* LinuxRandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* LinuxRandomTests.swift */; };
+		OBJ_93 /* SwiftTestUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */; };
+		OBJ_94 /* Fakery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Fakery::Fakery::Product" /* Fakery.framework */; };
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BC827FB31BFA3CE1005F09A4 /* PBXContainerItemProxy */ = {
+		E4FC13FC216D07DB00226A32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BCF0DF311BF9F77E00427DB4 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BC827FA71BFA3CE1005F09A4;
-			remoteInfo = "Fakery OSX";
+			remoteGlobalIDString = "SwiftTestUtils::SwiftTestUtils";
+			remoteInfo = SwiftTestUtils;
 		};
-		BCF0DF461BF9F77E00427DB4 /* PBXContainerItemProxy */ = {
+		E4FC13FD216D07DB00226A32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BCF0DF311BF9F77E00427DB4 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BCF0DF391BF9F77E00427DB4;
+			remoteGlobalIDString = "Fakery::Fakery";
 			remoteInfo = Fakery;
+		};
+		E4FC13FE216D07DC00226A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Fakery::FakeryTests";
+			remoteInfo = FakeryTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		09F65D6E1CA30351006C87C5 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 		105747991F6FBAA500154ECB /* BankSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankSpec.swift; sourceTree = "<group>"; };
 		1057479C1F6FBF6C00154ECB /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
@@ -278,52 +331,73 @@
 		E410DF4D227A08D40069768D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		E410DF4E227A08D70069768D /* Fakery.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fakery.podspec; sourceTree = "<group>"; };
 		E460B80420B47853004ABCAE /* en.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = en.swift; sourceTree = "<group>"; };
+=======
+		"Fakery::Fakery::Product" /* Fakery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fakery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Fakery::FakeryTests::Product" /* FakeryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FakeryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_11 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		OBJ_14 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Faker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faker.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		OBJ_18 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Commerce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commerce.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Lorem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		OBJ_28 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		OBJ_30 /* LinuxRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxRandom.swift; sourceTree = "<group>"; };
+		OBJ_32 /* en.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = en.swift; sourceTree = "<group>"; };
+		OBJ_35 /* LinuxRandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxRandomTests.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = SOURCE_ROOT; };
+		OBJ_37 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
+		OBJ_38 /* Project */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Project; sourceTree = SOURCE_ROOT; };
+		OBJ_41 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/brianstrobach/Appsaurus/Company/Projects/Open Source/Swift/Fakery/.build/checkouts/SwiftTestUtils-6038411842177327129/Package.swift"; sourceTree = "<group>"; };
+		OBJ_42 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		OBJ_43 /* LinuxTestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxTestable.swift; sourceTree = "<group>"; };
+		OBJ_44 /* XCAssertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAssertions.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		"SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftTestUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC827FA41BFA3CE1005F09A4 /* Frameworks */ = {
+		OBJ_105 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC827FAE1BFA3CE1005F09A4 /* Frameworks */ = {
+		OBJ_74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC827FB21BFA3CE1005F09A4 /* Fakery.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCF0DF361BF9F77E00427DB4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCF0DF411BF9F77E00427DB4 /* Frameworks */ = {
+		OBJ_92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				BCF0DF451BF9F77E00427DB4 /* Fakery.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDC291241D9441F2007DA2FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				OBJ_93 /* SwiftTestUtils.framework in Frameworks */,
+				OBJ_94 /* Fakery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BCF0DF301BF9F77E00427DB4 = {
+		OBJ_10 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				E410DF4E227A08D70069768D /* Fakery.podspec */,
 				E410DF4D227A08D40069768D /* Package.swift */,
 				D59B6D0F1D99C6C7007CB072 /* Project */,
@@ -331,92 +405,71 @@
 				BCFFA1611BF9F912005A3BC1 /* Sources */,
 				BCFFA1761BF9F912005A3BC1 /* Tests */,
 				BCF0DF3B1BF9F77E00427DB4 /* Products */,
-			);
-			indentWidth = 2;
-			sourceTree = "<group>";
-			tabWidth = 2;
-		};
-		BCF0DF3B1BF9F77E00427DB4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BCF0DF3A1BF9F77E00427DB4 /* Fakery.framework */,
-				BCF0DF441BF9F77E00427DB4 /* Fakery-iOS-Tests.xctest */,
-				BC827FA81BFA3CE1005F09A4 /* Fakery.framework */,
-				BC827FB11BFA3CE1005F09A4 /* Fakery-macOS-Tests.xctest */,
-				BDC291281D9441F2007DA2FC /* Fakery.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BCFFA1471BF9F912005A3BC1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BCFFA1481BF9F912005A3BC1 /* Locales */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		BCFFA1481BF9F912005A3BC1 /* Locales */ = {
-			isa = PBXGroup;
-			children = (
-				BCFFA1491BF9F912005A3BC1 /* de-AT.json */,
-				BCFFA14A1BF9F912005A3BC1 /* de-CH.json */,
-				BCFFA14B1BF9F912005A3BC1 /* de.json */,
-				BCFFA14C1BF9F912005A3BC1 /* en-AU.json */,
-				BCFFA14D1BF9F912005A3BC1 /* en-CA.json */,
-				BCFFA14E1BF9F912005A3BC1 /* en-GB.json */,
-				BCFFA14F1BF9F912005A3BC1 /* en-IND.json */,
-				BCFFA1501BF9F912005A3BC1 /* en-TEST.json */,
-				BCFFA1511BF9F912005A3BC1 /* en-US.json */,
-				BCFFA1521BF9F912005A3BC1 /* en.json */,
-				BCFFA1531BF9F912005A3BC1 /* es.json */,
-				BCFFA1541BF9F912005A3BC1 /* fa.json */,
-				BCFFA1551BF9F912005A3BC1 /* fr.json */,
-				BCFFA1561BF9F912005A3BC1 /* it.json */,
-				BCFFA1571BF9F912005A3BC1 /* ja.json */,
-				BCFFA1581BF9F912005A3BC1 /* ko.json */,
-				BCFFA1591BF9F912005A3BC1 /* nb-NO.json */,
-				BCFFA15A1BF9F912005A3BC1 /* pl.json */,
-				BCFFA15B1BF9F912005A3BC1 /* ru.json */,
-				BCFFA15C1BF9F912005A3BC1 /* sk.json */,
-				BCFFA15D1BF9F912005A3BC1 /* sv.json */,
-				BCFFA15E1BF9F912005A3BC1 /* uk.json */,
-				BCFFA15F1BF9F912005A3BC1 /* zh-CN.json */,
-				BCFFA1601BF9F912005A3BC1 /* zh-TW.json */,
-				2A17AB091E4E45A600011BC6 /* tr-TR.json */,
-				105747A01F6FFB9F00154ECB /* nl.json */,
-			);
-			path = Locales;
-			sourceTree = "<group>";
-		};
-		BCFFA1611BF9F912005A3BC1 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				D535B6521F954FC20023F851 /* Fakery */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		BCFFA1631BF9F912005A3BC1 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				BCFFA1641BF9F912005A3BC1 /* Parser.swift */,
-				BCFFA1651BF9F912005A3BC1 /* Provider.swift */,
+=======
+				OBJ_11 /* Parser.swift */,
+				OBJ_12 /* Provider.swift */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		BCFFA1661BF9F912005A3BC1 /* Extensions */ = {
+		OBJ_13 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BCFFA1671BF9F912005A3BC1 /* ArrayExtension.swift */,
+				OBJ_14 /* ArrayExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		BCFFA1691BF9F912005A3BC1 /* Generators */ = {
+		OBJ_16 /* Generators */ = {
 			isa = PBXGroup;
 			children = (
+				OBJ_17 /* Address.swift */,
+				OBJ_18 /* App.swift */,
+				OBJ_19 /* Bank.swift */,
+				OBJ_20 /* Business.swift */,
+				OBJ_21 /* Commerce.swift */,
+				OBJ_22 /* Company.swift */,
+				OBJ_23 /* Generator.swift */,
+				OBJ_24 /* Internet.swift */,
+				OBJ_25 /* Lorem.swift */,
+				OBJ_26 /* Name.swift */,
+				OBJ_27 /* Number.swift */,
+				OBJ_28 /* PhoneNumber.swift */,
+				OBJ_29 /* Team.swift */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Locales */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* en.swift */,
+			);
+			path = Locales;
+			sourceTree = "<group>";
+		};
+		OBJ_33 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* FakeryTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_34 /* FakeryTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* LinuxRandomTests.swift */,
+			);
+			name = FakeryTests;
+			path = Tests/FakeryTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_39 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+<<<<<<< HEAD
 				BCFFA16A1BF9F912005A3BC1 /* Address.swift */,
 				BCFFA16B1BF9F912005A3BC1 /* App.swift */,
 				BCFFA16C1BF9F912005A3BC1 /* Business.swift */,
@@ -431,15 +484,22 @@
 				BCFFA1741BF9F912005A3BC1 /* Team.swift */,
 				1057479C1F6FBF6C00154ECB /* Bank.swift */,
 				AC88DC0A21531E2E007198E6 /* Date.swift */,
+=======
+				OBJ_40 /* SwiftTestUtils 1.0.1 */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
-			path = Generators;
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		BCFFA1761BF9F912005A3BC1 /* Tests */ = {
+		OBJ_40 /* SwiftTestUtils 1.0.1 */ = {
 			isa = PBXGroup;
 			children = (
-				D59B6CEC1D99C5FD007CB072 /* Fakery */,
+				OBJ_41 /* Package.swift */,
+				OBJ_42 /* BaseTestCase.swift */,
+				OBJ_43 /* LinuxTestable.swift */,
+				OBJ_44 /* XCAssertions.swift */,
 			);
+<<<<<<< HEAD
 			path = Tests;
 			sourceTree = "<group>";
 		};
@@ -455,30 +515,41 @@
 			);
 			path = Fakery;
 			sourceTree = "<group>";
+=======
+			name = "SwiftTestUtils 1.0.1";
+			path = ".build/checkouts/SwiftTestUtils-6038411842177327129/Sources/Shared";
+			sourceTree = SOURCE_ROOT;
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 		};
-		D59B6CEC1D99C5FD007CB072 /* Fakery */ = {
+		OBJ_45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D59B6CED1D99C5FD007CB072 /* ConfigSpec.swift */,
-				D59B6CF11D99C5FD007CB072 /* FakerSpec.swift */,
-				D59B6CEE1D99C5FD007CB072 /* Data */,
-				D59B6CF21D99C5FD007CB072 /* Generators */,
+				"Fakery::Fakery::Product" /* Fakery.framework */,
+				"Fakery::FakeryTests::Product" /* FakeryTests.xctest */,
+				"SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */,
 			);
-			path = Fakery;
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_33 /* Tests */,
+				OBJ_36 /* Images */,
+				OBJ_37 /* Resources */,
+				OBJ_38 /* Project */,
+				OBJ_39 /* Dependencies */,
+				OBJ_45 /* Products */,
+			);
+			name = "";
 			sourceTree = "<group>";
 		};
-		D59B6CEE1D99C5FD007CB072 /* Data */ = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D59B6CEF1D99C5FD007CB072 /* ParserSpec.swift */,
-				D59B6CF01D99C5FD007CB072 /* ProviderSpec.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		D59B6CF21D99C5FD007CB072 /* Generators */ = {
-			isa = PBXGroup;
-			children = (
+<<<<<<< HEAD
 				D59B6CF31D99C5FD007CB072 /* AddressSpec.swift */,
 				D59B6CF41D99C5FD007CB072 /* AppSpec.swift */,
 				D59B6CF51D99C5FD007CB072 /* BusinessSpec.swift */,
@@ -493,22 +564,27 @@
 				D59B6CFE1D99C5FD007CB072 /* TeamSpec.swift */,
 				105747991F6FBAA500154ECB /* BankSpec.swift */,
 				AC88DC0C215330A3007198E6 /* DateSpec.swift */,
+=======
+				OBJ_8 /* Fakery */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
-			path = Generators;
-			sourceTree = "<group>";
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
-		D59B6D0F1D99C6C7007CB072 /* Project */ = {
+		OBJ_8 /* Fakery */ = {
 			isa = PBXGroup;
 			children = (
-				D59B6D101D99C6C7007CB072 /* Info-iOS.plist */,
-				D59B6D111D99C6C7007CB072 /* Info-Mac.plist */,
-				D59B6D121D99C6C7007CB072 /* Info-Tests-iOS.plist */,
-				D59B6D131D99C6C7007CB072 /* Info-Tests-Mac.plist */,
-				D59B6D141D99C6C7007CB072 /* Info-Tests-tvOS.plist */,
-				D59B6D151D99C6C7007CB072 /* Info-tvOS.plist */,
+				OBJ_9 /* Config.swift */,
+				OBJ_10 /* Data */,
+				OBJ_13 /* Extensions */,
+				OBJ_15 /* Faker.swift */,
+				OBJ_16 /* Generators */,
+				OBJ_30 /* LinuxRandom.swift */,
+				OBJ_31 /* Locales */,
 			);
-			path = Project;
-			sourceTree = "<group>";
+			name = Fakery;
+			path = Sources/Fakery;
+			sourceTree = SOURCE_ROOT;
 		};
 		E460B80320B4783E004ABCAE /* Locales */ = {
 			isa = PBXGroup;
@@ -520,159 +596,111 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		BC827FA51BFA3CE1005F09A4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCF0DF371BF9F77E00427DB4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDC291251D9441F2007DA2FC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		BC827FA71BFA3CE1005F09A4 /* Fakery-macOS */ = {
+		"Fakery::Fakery" /* Fakery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC827FBD1BFA3CE1005F09A4 /* Build configuration list for PBXNativeTarget "Fakery-macOS" */;
+			buildConfigurationList = OBJ_50 /* Build configuration list for PBXNativeTarget "Fakery" */;
 			buildPhases = (
-				BC827FA31BFA3CE1005F09A4 /* Sources */,
-				BC827FA41BFA3CE1005F09A4 /* Frameworks */,
-				BC827FA51BFA3CE1005F09A4 /* Headers */,
-				BC827FA61BFA3CE1005F09A4 /* Resources */,
-				D51B4F371D9AE2BE009FE24D /* SwiftLint */,
+				OBJ_53 /* Sources */,
+				OBJ_74 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Fakery-macOS";
-			productName = "Fakery OSX";
-			productReference = BC827FA81BFA3CE1005F09A4 /* Fakery.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BC827FB01BFA3CE1005F09A4 /* Fakery-macOS-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC827FBE1BFA3CE1005F09A4 /* Build configuration list for PBXNativeTarget "Fakery-macOS-Tests" */;
-			buildPhases = (
-				BC827FAD1BFA3CE1005F09A4 /* Sources */,
-				BC827FAE1BFA3CE1005F09A4 /* Frameworks */,
-				BC827FAF1BFA3CE1005F09A4 /* Resources */,
-				D5197A871D9A5E0C00029A9D /* Copy frameworks with Carthage */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC827FB41BFA3CE1005F09A4 /* PBXTargetDependency */,
-			);
-			name = "Fakery-macOS-Tests";
-			productName = "Fakery OSXTests";
-			productReference = BC827FB11BFA3CE1005F09A4 /* Fakery-macOS-Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BCF0DF391BF9F77E00427DB4 /* Fakery-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BCF0DF4E1BF9F77E00427DB4 /* Build configuration list for PBXNativeTarget "Fakery-iOS" */;
-			buildPhases = (
-				BCF0DF351BF9F77E00427DB4 /* Sources */,
-				BCF0DF361BF9F77E00427DB4 /* Frameworks */,
-				BCF0DF371BF9F77E00427DB4 /* Headers */,
-				BCF0DF381BF9F77E00427DB4 /* Resources */,
-				D51B4F361D9AE2A0009FE24D /* SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Fakery-iOS";
+			name = Fakery;
 			productName = Fakery;
-			productReference = BCF0DF3A1BF9F77E00427DB4 /* Fakery.framework */;
+			productReference = "Fakery::Fakery::Product" /* Fakery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BCF0DF431BF9F77E00427DB4 /* Fakery-iOS-Tests */ = {
+		"Fakery::FakeryTests" /* FakeryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCF0DF511BF9F77E00427DB4 /* Build configuration list for PBXNativeTarget "Fakery-iOS-Tests" */;
+			buildConfigurationList = OBJ_87 /* Build configuration list for PBXNativeTarget "FakeryTests" */;
 			buildPhases = (
-				BCF0DF401BF9F77E00427DB4 /* Sources */,
-				BCF0DF411BF9F77E00427DB4 /* Frameworks */,
-				BCF0DF421BF9F77E00427DB4 /* Resources */,
-				D5BA6B7F1D99D429000D5F46 /* Copy frameworks with Carthage */,
+				OBJ_90 /* Sources */,
+				OBJ_92 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCF0DF471BF9F77E00427DB4 /* PBXTargetDependency */,
+				OBJ_95 /* PBXTargetDependency */,
+				OBJ_97 /* PBXTargetDependency */,
 			);
-			name = "Fakery-iOS-Tests";
+			name = FakeryTests;
 			productName = FakeryTests;
-			productReference = BCF0DF441BF9F77E00427DB4 /* Fakery-iOS-Tests.xctest */;
+			productReference = "Fakery::FakeryTests::Product" /* FakeryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BDC291271D9441F2007DA2FC /* Fakery-tvOS */ = {
+		"Fakery::SwiftPMPackageDescription" /* FakeryPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDC2912D1D9441F2007DA2FC /* Build configuration list for PBXNativeTarget "Fakery-tvOS" */;
+			buildConfigurationList = OBJ_76 /* Build configuration list for PBXNativeTarget "FakeryPackageDescription" */;
 			buildPhases = (
-				BDC291231D9441F2007DA2FC /* Sources */,
-				BDC291241D9441F2007DA2FC /* Frameworks */,
-				BDC291251D9441F2007DA2FC /* Headers */,
-				BDC291261D9441F2007DA2FC /* Resources */,
-				D51B4F381D9AE2CD009FE24D /* SwiftLint */,
+				OBJ_79 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Fakery-tvOS";
-			productName = "Fakery tvOS";
-			productReference = BDC291281D9441F2007DA2FC /* Fakery.framework */;
+			name = FakeryPackageDescription;
+			productName = FakeryPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftTestUtils::SwiftPMPackageDescription" /* SwiftTestUtilsPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_107 /* Build configuration list for PBXNativeTarget "SwiftTestUtilsPackageDescription" */;
+			buildPhases = (
+				OBJ_110 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTestUtilsPackageDescription;
+			productName = SwiftTestUtilsPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftTestUtils::SwiftTestUtils" /* SwiftTestUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_98 /* Build configuration list for PBXNativeTarget "SwiftTestUtils" */;
+			buildPhases = (
+				OBJ_101 /* Sources */,
+				OBJ_105 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTestUtils;
+			productName = SwiftTestUtils;
+			productReference = "SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BCF0DF311BF9F77E00427DB4 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+<<<<<<< HEAD
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Vadym Markov";
+=======
+				LastUpgradeCheck = 9999;
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 				TargetAttributes = {
-					BC827FA71BFA3CE1005F09A4 = {
-						CreatedOnToolsVersion = 7.1.1;
-						LastSwiftMigration = 0900;
+					"Fakery::Fakery" = {
+						LastSwiftMigration = 1000;
 					};
-					BC827FB01BFA3CE1005F09A4 = {
-						CreatedOnToolsVersion = 7.1.1;
-						LastSwiftMigration = 0900;
+					"Fakery::FakeryTests" = {
+						LastSwiftMigration = 1000;
 					};
-					BCF0DF391BF9F77E00427DB4 = {
-						CreatedOnToolsVersion = 7.1.1;
-						LastSwiftMigration = 0900;
-					};
-					BCF0DF431BF9F77E00427DB4 = {
-						CreatedOnToolsVersion = 7.1.1;
-						LastSwiftMigration = 0900;
-					};
-					BDC291271D9441F2007DA2FC = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0900;
+					"SwiftTestUtils::SwiftTestUtils" = {
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
-			buildConfigurationList = BCF0DF341BF9F77E00427DB4 /* Build configuration list for PBXProject "Fakery" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Fakery" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -681,20 +709,22 @@
 				en,
 				Base,
 			);
-			mainGroup = BCF0DF301BF9F77E00427DB4;
-			productRefGroup = BCF0DF3B1BF9F77E00427DB4 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCF0DF391BF9F77E00427DB4 /* Fakery-iOS */,
-				BC827FA71BFA3CE1005F09A4 /* Fakery-macOS */,
-				BDC291271D9441F2007DA2FC /* Fakery-tvOS */,
-				BCF0DF431BF9F77E00427DB4 /* Fakery-iOS-Tests */,
-				BC827FB01BFA3CE1005F09A4 /* Fakery-macOS-Tests */,
+				"Fakery::Fakery" /* Fakery */,
+				"Fakery::SwiftPMPackageDescription" /* FakeryPackageDescription */,
+				"Fakery::FakeryPackageTests::ProductTarget" /* FakeryPackageTests */,
+				"Fakery::FakeryTests" /* FakeryTests */,
+				"SwiftTestUtils::SwiftTestUtils" /* SwiftTestUtils */,
+				"SwiftTestUtils::SwiftPMPackageDescription" /* SwiftTestUtilsPackageDescription */,
 			);
 		};
 /* End PBXProject section */
 
+<<<<<<< HEAD
 /* Begin PBXResourcesBuildPhase section */
 		BC827FA61BFA3CE1005F09A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -886,11 +916,14 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
+=======
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 /* Begin PBXSourcesBuildPhase section */
-		BC827FA31BFA3CE1005F09A4 /* Sources */ = {
+		OBJ_101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+<<<<<<< HEAD
 				E460B80620B47858004ABCAE /* en.swift in Sources */,
 				BC44779C1BFA452E00E8FB15 /* Team.swift in Sources */,
 				BC44779B1BFA452C00E8FB15 /* PhoneNumber.swift in Sources */,
@@ -911,13 +944,19 @@
 				AC8156A92153C27E00D779EF /* Date.swift in Sources */,
 				BC44779F1BFA453F00E8FB15 /* Provider.swift in Sources */,
 				BC44779D1BFA453800E8FB15 /* ArrayExtension.swift in Sources */,
+=======
+				OBJ_102 /* BaseTestCase.swift in Sources */,
+				OBJ_103 /* LinuxTestable.swift in Sources */,
+				OBJ_104 /* XCAssertions.swift in Sources */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC827FAD1BFA3CE1005F09A4 /* Sources */ = {
+		OBJ_110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+<<<<<<< HEAD
 				D59B6D361D99C82E007CB072 /* InternetSpec.swift in Sources */,
 				D59B6D351D99C82E007CB072 /* GeneratorSpec.swift in Sources */,
 				D59B6D2D1D99C82E007CB072 /* FakerSpec.swift in Sources */,
@@ -936,13 +975,17 @@
 				D59B6D2C1D99C82E007CB072 /* ConfigSpec.swift in Sources */,
 				D59B6D381D99C82E007CB072 /* NameSpec.swift in Sources */,
 				D59B6D2F1D99C82E007CB072 /* ProviderSpec.swift in Sources */,
+=======
+				OBJ_111 /* Package.swift in Sources */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCF0DF351BF9F77E00427DB4 /* Sources */ = {
+		OBJ_53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+<<<<<<< HEAD
 				E460B80520B47858004ABCAE /* en.swift in Sources */,
 				BCFFA1961BF9F912005A3BC1 /* Address.swift in Sources */,
 				BCFFA19D1BF9F912005A3BC1 /* Lorem.swift in Sources */,
@@ -963,13 +1006,36 @@
 				AC88DC0B21531E2E007198E6 /* Date.swift in Sources */,
 				BCFFA19E1BF9F912005A3BC1 /* Name.swift in Sources */,
 				BCFFA1991BF9F912005A3BC1 /* Commerce.swift in Sources */,
+=======
+				OBJ_54 /* Config.swift in Sources */,
+				OBJ_55 /* Parser.swift in Sources */,
+				OBJ_56 /* Provider.swift in Sources */,
+				OBJ_57 /* ArrayExtension.swift in Sources */,
+				OBJ_58 /* Faker.swift in Sources */,
+				OBJ_59 /* Address.swift in Sources */,
+				OBJ_60 /* App.swift in Sources */,
+				OBJ_61 /* Bank.swift in Sources */,
+				OBJ_62 /* Business.swift in Sources */,
+				OBJ_63 /* Commerce.swift in Sources */,
+				OBJ_64 /* Company.swift in Sources */,
+				OBJ_65 /* Generator.swift in Sources */,
+				OBJ_66 /* Internet.swift in Sources */,
+				OBJ_67 /* Lorem.swift in Sources */,
+				OBJ_68 /* Name.swift in Sources */,
+				OBJ_69 /* Number.swift in Sources */,
+				OBJ_70 /* PhoneNumber.swift in Sources */,
+				OBJ_71 /* Team.swift in Sources */,
+				OBJ_72 /* LinuxRandom.swift in Sources */,
+				OBJ_73 /* en.swift in Sources */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCF0DF401BF9F77E00427DB4 /* Sources */ = {
+		OBJ_79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+<<<<<<< HEAD
 				D59B6D261D99C82D007CB072 /* InternetSpec.swift in Sources */,
 				D59B6D251D99C82D007CB072 /* GeneratorSpec.swift in Sources */,
 				D59B6D1D1D99C82D007CB072 /* FakerSpec.swift in Sources */,
@@ -988,13 +1054,17 @@
 				D59B6D1C1D99C82D007CB072 /* ConfigSpec.swift in Sources */,
 				D59B6D281D99C82D007CB072 /* NameSpec.swift in Sources */,
 				D59B6D1F1D99C82D007CB072 /* ProviderSpec.swift in Sources */,
+=======
+				OBJ_80 /* Package.swift in Sources */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC291231D9441F2007DA2FC /* Sources */ = {
+		OBJ_90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+<<<<<<< HEAD
 				E460B80720B47859004ABCAE /* en.swift in Sources */,
 				D59B6CA51D99C46C007CB072 /* Address.swift in Sources */,
 				D59B6CAC1D99C46C007CB072 /* Lorem.swift in Sources */,
@@ -1015,391 +1085,332 @@
 				AC8156AA2153C27F00D779EF /* Date.swift in Sources */,
 				D59B6CA81D99C46C007CB072 /* Commerce.swift in Sources */,
 				D59B6CAF1D99C46C007CB072 /* PhoneNumber.swift in Sources */,
+=======
+				OBJ_91 /* LinuxRandomTests.swift in Sources */,
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BC827FB41BFA3CE1005F09A4 /* PBXTargetDependency */ = {
+		OBJ_85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC827FA71BFA3CE1005F09A4 /* Fakery-macOS */;
-			targetProxy = BC827FB31BFA3CE1005F09A4 /* PBXContainerItemProxy */;
+			target = "Fakery::FakeryTests" /* FakeryTests */;
+			targetProxy = E4FC13FE216D07DC00226A32 /* PBXContainerItemProxy */;
 		};
-		BCF0DF471BF9F77E00427DB4 /* PBXTargetDependency */ = {
+		OBJ_95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BCF0DF391BF9F77E00427DB4 /* Fakery-iOS */;
-			targetProxy = BCF0DF461BF9F77E00427DB4 /* PBXContainerItemProxy */;
+			target = "SwiftTestUtils::SwiftTestUtils" /* SwiftTestUtils */;
+			targetProxy = E4FC13FC216D07DB00226A32 /* PBXContainerItemProxy */;
+		};
+		OBJ_97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Fakery::Fakery" /* Fakery */;
+			targetProxy = E4FC13FD216D07DB00226A32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BC827FB91BFA3CE1005F09A4 /* Debug */ = {
+		OBJ_100 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Mac.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-macOS";
-				PRODUCT_NAME = Fakery;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		BC827FBA1BFA3CE1005F09A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Mac.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-macOS";
-				PRODUCT_NAME = Fakery;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		BC827FBB1BFA3CE1005F09A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-Mac.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-OSXTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		BC827FBC1BFA3CE1005F09A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-Mac.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery-OSXTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		BCF0DF4C1BF9F77E00427DB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fakery.xcodeproj/SwiftTestUtils_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftTestUtils;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftTestUtils;
+			};
+			name = Release;
+		};
+		OBJ_108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		BCF0DF4D1BF9F77E00427DB4 /* Release */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		BCF0DF4F1BF9F77E00427DB4 /* Debug */ = {
+		OBJ_51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-iOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery";
-				PRODUCT_NAME = Fakery;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fakery.xcodeproj/Fakery_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Fakery;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Fakery;
+			};
+			name = Debug;
+		};
+		OBJ_52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fakery.xcodeproj/Fakery_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Fakery;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Fakery;
+			};
+			name = Release;
+		};
+		OBJ_77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		BCF0DF501BF9F77E00427DB4 /* Release */ = {
+		OBJ_78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-iOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.Fakery";
-				PRODUCT_NAME = Fakery;
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		BCF0DF521BF9F77E00427DB4 /* Debug */ = {
+		OBJ_83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-iOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.FakeryTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		BCF0DF531BF9F77E00427DB4 /* Release */ = {
+		OBJ_84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-Tests-iOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vadym-markov.FakeryTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		BDC2912E1D9441F2007DA2FC /* Debug */ = {
+		OBJ_88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.Fakery-tvOS";
-				PRODUCT_NAME = Fakery;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fakery.xcodeproj/FakeryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = FakeryTests;
 			};
 			name = Debug;
 		};
-		BDC2912F1D9441F2007DA2FC /* Release */ = {
+		OBJ_89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/Project/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zenangst.Fakery-tvOS";
-				PRODUCT_NAME = Fakery;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fakery.xcodeproj/FakeryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = FakeryTests;
 			};
 			name = Release;
+		};
+		OBJ_99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Fakery.xcodeproj/SwiftTestUtils_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftTestUtils;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftTestUtils;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC827FBD1BFA3CE1005F09A4 /* Build configuration list for PBXNativeTarget "Fakery-macOS" */ = {
+		OBJ_107 /* Build configuration list for PBXNativeTarget "SwiftTestUtilsPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC827FB91BFA3CE1005F09A4 /* Debug */,
-				BC827FBA1BFA3CE1005F09A4 /* Release */,
+				OBJ_108 /* Debug */,
+				OBJ_109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC827FBE1BFA3CE1005F09A4 /* Build configuration list for PBXNativeTarget "Fakery-macOS-Tests" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Fakery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC827FBB1BFA3CE1005F09A4 /* Debug */,
-				BC827FBC1BFA3CE1005F09A4 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCF0DF341BF9F77E00427DB4 /* Build configuration list for PBXProject "Fakery" */ = {
+		OBJ_50 /* Build configuration list for PBXNativeTarget "Fakery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCF0DF4C1BF9F77E00427DB4 /* Debug */,
-				BCF0DF4D1BF9F77E00427DB4 /* Release */,
+				OBJ_51 /* Debug */,
+				OBJ_52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCF0DF4E1BF9F77E00427DB4 /* Build configuration list for PBXNativeTarget "Fakery-iOS" */ = {
+		OBJ_76 /* Build configuration list for PBXNativeTarget "FakeryPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCF0DF4F1BF9F77E00427DB4 /* Debug */,
-				BCF0DF501BF9F77E00427DB4 /* Release */,
+				OBJ_77 /* Debug */,
+				OBJ_78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCF0DF511BF9F77E00427DB4 /* Build configuration list for PBXNativeTarget "Fakery-iOS-Tests" */ = {
+		OBJ_82 /* Build configuration list for PBXAggregateTarget "FakeryPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCF0DF521BF9F77E00427DB4 /* Debug */,
-				BCF0DF531BF9F77E00427DB4 /* Release */,
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDC2912D1D9441F2007DA2FC /* Build configuration list for PBXNativeTarget "Fakery-tvOS" */ = {
+		OBJ_87 /* Build configuration list for PBXNativeTarget "FakeryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDC2912E1D9441F2007DA2FC /* Debug */,
-				BDC2912F1D9441F2007DA2FC /* Release */,
+				OBJ_88 /* Debug */,
+				OBJ_89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_98 /* Build configuration list for PBXNativeTarget "SwiftTestUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_99 /* Debug */,
+				OBJ_100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BCF0DF311BF9F77E00427DB4 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

@@ -1,9 +1,15 @@
 import Foundation
+#if !os(Linux)
 import CoreLocation
+#endif
 
 public final class Address: Generator {
   public func city() -> String {
     return generate("address.city")
+  }
+
+  public func neighborhood() -> String {
+	return generate("address.neighborhood")
   }
 
   public func streetName() -> String {
@@ -79,8 +85,13 @@ public final class Address: Generator {
   public func longitude() -> Double {
     return drand48() * 360.0 - 180.0
   }
+<<<<<<< HEAD
 
   public func coordinate(inRadius radius: Double, fromCenter center: CLLocationCoordinate2D) -> CLLocationCoordinate2D {
+=======
+  #if !os(Linux)
+  public func coordinate(inRadius radius: Double, fromCenter center:CLLocationCoordinate2D) -> CLLocationCoordinate2D {
+>>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
     let y0 = center.latitude
     let x0 = center.longitude
 
@@ -88,8 +99,8 @@ public final class Address: Generator {
     let radiusInDegrees = radius / 111300.0
 
     // Random point in circle
-    let u = Double(arc4random()) / 0xFFFFFFFF
-    let v = Double(arc4random()) / 0xFFFFFFFF
+    let u = Double(Random.int()) / 0xFFFFFFFF
+    let v = Double(Random.int()) / 0xFFFFFFFF
     let w = radiusInDegrees * sqrt(u)
     let t = 2 * .pi * v
     let x = w * cos(t)
@@ -105,4 +116,5 @@ public final class Address: Generator {
 
     return CLLocationCoordinate2D.init(latitude: foundLatitude, longitude: foundLongitude)
   }
+	#endif
 }
