@@ -85,13 +85,10 @@ public final class Address: Generator {
   public func longitude() -> Double {
     return drand48() * 360.0 - 180.0
   }
-<<<<<<< HEAD
 
-  public func coordinate(inRadius radius: Double, fromCenter center: CLLocationCoordinate2D) -> CLLocationCoordinate2D {
-=======
   #if !os(Linux)
   public func coordinate(inRadius radius: Double, fromCenter center:CLLocationCoordinate2D) -> CLLocationCoordinate2D {
->>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
+
     let y0 = center.latitude
     let x0 = center.longitude
 

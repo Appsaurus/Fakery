@@ -90,15 +90,9 @@ public final class Internet: Generator {
   public func ipV6Address() -> String {
     var components: [String] = []
 
-<<<<<<< HEAD
     for _ in 0..<8 {
       components.append(String(format: "%X", arc4random() % 65536))
-=======
-    for _ in 1..<8 {
-      components.append(String(format: "%X", Random.int() % 65535))
->>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
     }
-
     return components.joined(separator: ":")
   }
 

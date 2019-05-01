@@ -8,16 +8,11 @@
 
 import Foundation
 
-<<<<<<< HEAD
 //swiftlint:disable file_length
-public class Locale { }
 
-extension Locale {
-=======
 public class Locale{ }
 
 extension Locale{
->>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
 	public static let en: String = """
 {
 	"en": {
