@@ -9,7 +9,6 @@
 import Foundation
 
 //swiftlint:disable file_length
-
 public class Locale{ }
 
 extension Locale{

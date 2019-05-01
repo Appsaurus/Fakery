@@ -91,7 +91,7 @@ public final class Internet: Generator {
     var components: [String] = []
 
     for _ in 0..<8 {
-      components.append(String(format: "%X", arc4random() % 65536))
+      components.append(String(format: "%X", Random.int() % 65535))
     }
     return components.joined(separator: ":")
   }
