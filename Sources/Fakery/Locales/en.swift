@@ -8,9 +8,10 @@
 
 import Foundation
 
-public class Locale{ }
+//swiftlint:disable file_length
+public class Locale { }
 
-extension Locale{
+extension Locale {
 	public static let en: String = """
 {
 	"en": {

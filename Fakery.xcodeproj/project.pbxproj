@@ -275,6 +275,8 @@
 		D59B6D131D99C6C7007CB072 /* Info-Tests-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests-Mac.plist"; sourceTree = "<group>"; };
 		D59B6D141D99C6C7007CB072 /* Info-Tests-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests-tvOS.plist"; sourceTree = "<group>"; };
 		D59B6D151D99C6C7007CB072 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		E410DF4D227A08D40069768D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		E410DF4E227A08D70069768D /* Fakery.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fakery.podspec; sourceTree = "<group>"; };
 		E460B80420B47853004ABCAE /* en.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = en.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -322,6 +324,8 @@
 		BCF0DF301BF9F77E00427DB4 = {
 			isa = PBXGroup;
 			children = (
+				E410DF4E227A08D70069768D /* Fakery.podspec */,
+				E410DF4D227A08D40069768D /* Package.swift */,
 				D59B6D0F1D99C6C7007CB072 /* Project */,
 				BCFFA1471BF9F912005A3BC1 /* Resources */,
 				BCFFA1611BF9F912005A3BC1 /* Sources */,
@@ -673,6 +677,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -833,7 +838,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		D51B4F371D9AE2BE009FE24D /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
