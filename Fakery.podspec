@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Fakery"
 <<<<<<< HEAD
-  s.version          = "3.4.0"
+  s.version          = "3.4.1"
 =======
   s.version          = "3.3.8"
 >>>>>>> 06102224553a2652fbb22cf4a04adebb8fb694ab
